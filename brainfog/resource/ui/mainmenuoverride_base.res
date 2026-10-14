@@ -2298,6 +2298,51 @@
 		"scaleImage"	"1"
 	}	
 
+	"StreamerModeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"StreamerModeButton"
+		"xpos"			"c-400"
+		"ypos"			"rs1-18"
+		"wide"			"100"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"25"
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"command"		"engine toggle cl_hud_minmode"
+		"labeltext"		"STREAMER"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"proportionaltoparent"	"1"
+			
+		"paintbackground"	"1"
+				
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"6"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_tv"
+		}		
+	}
+
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"
